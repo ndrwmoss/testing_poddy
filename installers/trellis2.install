@@ -1,0 +1,15 @@
+# apt apt
+
+# py pyt
+
+# workflow workflow
+workflow 3d_trellis_2_tex
+workflow 3d_trellis_2_geo
+
+# node url
+node https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2
+
+# model name folder url
+
+
+

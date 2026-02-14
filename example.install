@@ -1,0 +1,14 @@
+# apt apt
+apt ffmpeg
+
+# py pyt
+py pyloudnorm
+
+# workflow workflow
+workflow vid_lipsync
+
+# node url
+node https://github.com/kijai/ComfyUI-MelBandRoFormer
+
+# model name folder url
+model clip_vision_h.safetensors clip_vision https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors
