@@ -47,3 +47,21 @@ The workflows are by [pixaroma](https://www.youtube.com/watch?v=myuV6vjkGIw), in
 
     /poddy img_qwen_edit
 
+
+#### Ace Step 1.5
+The workflows are by [RyanOnTheInside](https://www.youtube.com/watch?v=R6ksf5GSsrk), information about how to use the workflow can be found by watching the video in the link. 
+
+<mark>**45 GB container**</mark> - provides enough storage for the workflow and models with a few GB for workflow results.  
+<mark>**24 GB vram, 50 GB ram**</mark>   - a lot more of both if processing video at higher than 1280 x 720 resolution, or higher than 300 frames at a time.
+
+    /poddy aud_acestep
+
+
+#### Qwen 3 TTS
+The workflows are by [Vantage with AI](https://www.youtube.com/watch?v=LDVC-n9R14w), information about how to use the workflow can be found by watching the video in the link. 
+
+<mark>**45 GB container**</mark> - provides enough storage for the workflow and models with a few GB for workflow results.  
+<mark>**24 GB vram, 50 GB ram**</mark>   - a lot more of both if processing video at higher than 1280 x 720 resolution, or higher than 300 frames at a time.
+
+    /poddy aud_qwen_3_tts
+
