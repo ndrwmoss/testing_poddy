@@ -20,3 +20,4 @@ node https://github.com/mickmumpitz/ComfyUI-Mickmumpitz-Nodes
 node https://github.com/aining2022/ComfyUI_Swwan
 node https://github.com/jomakaze/ComfyUI_JomaNodes
 model epicrealism_naturalSinRC1VAE.safetensors diffusion_models https://huggingface.co/gitgato/EpicReal/resolve/fd2b9d09eb5dbd5fb5a0aedfb9c24c3e0196c214/epicrealism_naturalSinRC1VAE.safetensors
+
