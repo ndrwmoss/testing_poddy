@@ -1,16 +1,7 @@
-# apt apt_get_command
-
-# py pip_command
-
-# workflow workflow_name
 workflow acestep-1.5-prompt-lora-blending
 workflow audio_ace_step_1_5_cover
 workflow audio_ace_step_1_5_cover_semantic_blending
 workflow audio_ace_step_1_5_edit
-
-# node github_url
 node https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
 node https://github.com/ryanontheinside/ComfyUI_RyanOnTheInside
-
-# model name model_sub_folder url
 model ace_step_1.5_turbo_aio.safetensors diffusion_models https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files/resolve/main/checkpoints/ace_step_1.5_turbo_aio.safetensors

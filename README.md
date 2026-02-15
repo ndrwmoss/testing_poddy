@@ -65,3 +65,11 @@ The workflows are by [Vantage with AI](https://www.youtube.com/watch?v=LDVC-n9R1
 
     /poddy aud_qwen_3_tts
 
+#### Flux SVG Workflows
+The workflows are by [pixaroma](https://www.youtube.com/watch?v=RUWwC7acHZs&t=18s), information about how to use the workflow can be found by watching the video in the link. 
+
+<mark>**45 GB container**</mark> - provides enough storage for the workflow and models with a few GB for workflow results.  
+<mark>**24 GB vram, 50 GB ram**</mark>   - a lot more of both if processing video at higher than 1280 x 720 resolution, or higher than 300 frames at a time.
+
+    /poddy svg_flux
+

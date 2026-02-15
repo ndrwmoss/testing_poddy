@@ -1,11 +1,4 @@
-# apt apt
-
-# py pyt
-
-# workflow workflow
 workflow img_sd_relight
-
-# node url
 node https://github.com/cubiq/ComfyUI_IPAdapter_plus
 node https://github.com/Fannovel16/comfyui_controlnet_aux
 node https://github.com/ltdrdata/ComfyUI-Impact-Pack
@@ -26,6 +19,4 @@ node https://github.com/ruucm/ruucm-comfy
 node https://github.com/mickmumpitz/ComfyUI-Mickmumpitz-Nodes
 node https://github.com/aining2022/ComfyUI_Swwan
 node https://github.com/jomakaze/ComfyUI_JomaNodes
-
-# model name folder url
 model epicrealism_naturalSinRC1VAE.safetensors diffusion_models https://huggingface.co/gitgato/EpicReal/resolve/fd2b9d09eb5dbd5fb5a0aedfb9c24c3e0196c214/epicrealism_naturalSinRC1VAE.safetensors
