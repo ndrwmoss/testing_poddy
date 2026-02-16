@@ -2,10 +2,10 @@ workflow svg_generate_vector_designs
 workflow svg_image _to_vector_silhouette
 workflow svg_image_vector_variation
 workflow svg_img_to_svg
-node https://github.com/city96/ComfyUI-GGUF
-node https://github.com/rgthree/rgthree-comfy
-node https://github.com/Yanick112/ComfyUI-ToSVG
-node https://github.com/kael558/ComfyUI-GGUF-FantasyTalking
+#node https://github.com/city96/ComfyUI-GGUF
+#node https://github.com/rgthree/rgthree-comfy
+#node https://github.com/Yanick112/ComfyUI-ToSVG
+#node https://github.com/kael558/ComfyUI-GGUF-FantasyTalking
 model flux1-dev-Q8_0.gguf diffusion_models https://huggingface.co/YarvixPA/FLUX.1-Fill-dev-gguf/resolve/main/flux1-fill-dev-Q8_0.gguf?download=true
 model t5-v1_1-xxl-encoder-Q8_0.gguf clip https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf/resolve/main/t5-v1_1-xxl-encoder-Q8_0.gguf?download=true
 model clip_l.safetensors clip https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf/resolve/main/t5-v1_1-xxl-encoder-Q8_0.gguf?download=true
