@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# SETUP
+c=$PODDY/cmd/{1:-install}
+
+# WORKFLOWS
+$c/workflow img_sd_relight
+
+# NODES
+$c/node https://github.com/cubiq/ComfyUI_IPAdapter_plus
+$c/node https://github.com/Fannovel16/comfyui_controlnet_aux
+$c/node https://github.com/ltdrdata/ComfyUI-Impact-Pack
+$c/node https://github.com/rgthree/rgthree-comfy
+$c/node https://github.com/kijai/ComfyUI-IC-Light
+$c/node https://github.com/kijai/ComfyUI-KJNodes
+$c/node https://github.com/cubiq/ComfyUI_FaceAnalysis
+$c/node https://github.com/BadCafeCode/masquerade-nodes-comfyui
+$c/node https://github.com/EllangoK/ComfyUI-post-processing-nodes
+$c/node https://github.com/jamesWalker55/comfyui-various
+$c/node https://github.com/ltdrdata/was-node-suite-comfyui
+$c/node https://github.com/M1kep/ComfyLiterals
+$c/node https://github.com/risunobushi/comfyUI_FrequencySeparation_RGB-HSV
+$c/node https://github.com/licyk/ComfyUI-HakuImg
+$c/node https://github.com/amtarr/ComfyUI-TextureAlchemy
+$c/node https://github.com/Polygoningenieur/ComfyUI-IC-Light-Video
+$c/node https://github.com/ruucm/ruucm-comfy
+$c/node https://github.com/mickmumpitz/ComfyUI-Mickmumpitz-Nodes
+$c/node https://github.com/aining2022/ComfyUI_Swwan
+$c/node https://github.com/jomakaze/ComfyUI_JomaNodes
+
+# MODELS
+$c/model epicrealism_naturalSinRC1VAE.safetensors diffusion_models https://huggingface.co/gitgato/EpicReal/resolve/fd2b9d09eb5dbd5fb5a0aedfb9c24c3e0196c214/epicrealism_naturalSinRC1VAE.safetensors
+

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# SETUP
+c=$PODDY/cmd/{1:-install}
+
+# WORKFLOWS
+$c/workflow sdxl_hair_transfer
+
+# NODES
+$c/node https://github.com/a-und-b/ComfyUI_LoRA_from_URL
+$c/node https://github.com/lldacing/ComfyUI_StableHair_ll
+$c/node https://github.com/cubiq/ComfyUI_essentials
+$c/node https://github.com/yolain/ComfyUI-Easy-Use
+$c/node https://github.com/a-und-b/ComfyUI_LoRA_from_URL
+
+# MODELS
+$c/model realisticVisionV60B1_v51VAE.safetensors diffusion_models https://huggingface.co/khaimd123/realisticVisionV60B1_v51VAE/resolve/5314c8485d833085571162c6bd3664eabdc6b25f/realisticVisionV60B1_v51VAE.safetensors

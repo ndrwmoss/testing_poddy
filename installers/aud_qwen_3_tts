@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# SETUP
+c=$PODDY/cmd/{1:-install}
+
+# WORKFLOWS
+$c/workflow aud_qwen_3_tts
+
+$c/node https://github.com/rgthree/rgthree-comfy
+$c/node https://github.com/vantagewithai/Vantage-Nodes
+
