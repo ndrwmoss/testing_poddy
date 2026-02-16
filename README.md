@@ -58,11 +58,10 @@ The workflows are by [pixaroma](https://www.youtube.com/watch?v=RUWwC7acHZs&t=18
 The workflows are by [pixaroma](https://www.youtube.com/watch?v=xbaiLj5XCaI).  
 <mark>**45 GB container, 24 GB vram, 50 GB ram**</mark>
 
-    /poddy add vid_wan_2_2
+    /poddy add vid_wan_mega_aio
 
 #### Wan 2.2 GGUF
 The workflows are by [pixaroma](https://www.youtube.com/watch?v=xbaiLj5XCaI).  
 <mark>**45 GB container, 24 GB vram, 50 GB ram**</mark>
 
     /poddy add vid_wan_gguf_lora
-
