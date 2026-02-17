@@ -23,7 +23,7 @@ The workflow is by [Andrea Baioni](https://www.youtube.com/watch?v=AKNzuHnhObk).
 
 #### QWEN 2509 1.5 Relight Photo
 The workflow is by [Code Crafters Corner](https://www.youtube.com/watch?v=qjgyws9bFzQ).  
-<mark>**45 GB container, 24 GB vram, 50 GB ram**</mark>
+<mark>disk space: **base container size + 35 GB**</mark> 
 
     /poddy add img_qwen_relight
 
