@@ -1,11 +1,9 @@
-#!/bin/bash
 
-# SETUP
-c=$PODDY/cmd/${1:-install}
 
 # WORKFLOWS
-$c/workflow 3d_trellis_2_tex
-$c/workflow 3d_trellis_2_geo
+workflow 3d_trellis_2_tex
+workflow 3d_trellis_2_geo
 
 # NODES
-$c/node https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2
+node https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2
+node https://github.com/PozzettiAndrea/ComfyUI-GeometryPack

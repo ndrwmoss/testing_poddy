@@ -1,16 +1,13 @@
-#!/bin/bash
 
-# SETUP
-c=$PODDY/cmd/${1:-install}
 
 # WORKFLOWS
-$c/workflow i2v_mega_aio
-$c/workflow t2v_mega_aio
+workflow i2v_mega_aio
+workflow t2v_mega_aio
 
 # NODES
-$c/node https://github.com/rgthree/rgthree-comfy
-$c/node https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
-$c/node https://github.com/kijai/ComfyUI-WanVideoWrapper
+node https://github.com/rgthree/rgthree-comfy
+node https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
+node https://github.com/kijai/ComfyUI-WanVideoWrapper
 
 # MODELS
-$c/model wan2.2-rapid-mega-aio-v8.safetensors checkpoints https://huggingface.co/Phr00t/WAN2.2-14B-Rapid-AllInOne/blob/main/Mega-v8/wan2.2-rapid-mega-aio-nsfw-v8.safetensors
+model wan2.2-rapid-mega-aio-v8.safetensors checkpoints https://huggingface.co/Phr00t/WAN2.2-14B-Rapid-AllInOne/blob/main/Mega-v8/wan2.2-rapid-mega-aio-nsfw-v8.safetensors
