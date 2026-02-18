@@ -1,8 +1,10 @@
+# py name
 
-
-# WORKFLOWS
+# workflow name
 workflow aud_qwen_3_tts
 
+# node url
 node https://github.com/rgthree/rgthree-comfy
 node https://github.com/vantagewithai/Vantage-Nodes
 
+# model name folder url
