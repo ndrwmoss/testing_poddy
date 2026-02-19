@@ -5,7 +5,7 @@ workflow 3d_trellis_2_tex
 workflow 3d_trellis_2_geo
 
 # node url
-node https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2
-node https://github.com/PozzettiAndrea/ComfyUI-GeometryPack
+# node https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2
+# node https://github.com/PozzettiAndrea/ComfyUI-GeometryPack
 
 # model name folder url
