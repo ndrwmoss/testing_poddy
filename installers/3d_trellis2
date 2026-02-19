@@ -5,6 +5,7 @@ workflow 3d_trellis_2_tex
 workflow 3d_trellis_2_geo
 
 # node url
+# Only works by manually installing through ComfyUI Manager, search for and install both TRELLIS2 and GeometryPack
 # node https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2
 # node https://github.com/PozzettiAndrea/ComfyUI-GeometryPack
 
