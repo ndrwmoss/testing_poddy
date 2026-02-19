@@ -1,7 +1,7 @@
 # py name
 
 # workflow name
-workflow wan_2_2_gguf_lora
+workflow vid_wan_2_2_gguf_lora
 
 # node url
 node https://github.com/rgthree/rgthree-comfy

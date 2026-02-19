@@ -1,8 +1,8 @@
 # py name
 
 # workflow name
-workflow i2v_mega_aio
-workflow t2v_mega_aio
+workflow vid_i2v_mega_aio
+workflow vid_t2v_mega_aio
 
 # node url
 node https://github.com/rgthree/rgthree-comfy

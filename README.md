@@ -3,43 +3,16 @@ This folder contains workflows under testing to make sure they run correctly. If
 
 `/poddy update test`
 
-#### Trellis.2
-The workflow is by [Next Diffusion](https://www.youtube.com/watch?v=YdJgEBb-Mp8).  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i 3d_trellis2
-
-#### SDXL Hair Transfer
-The workflow is by [StableHair II](https://github.com/lldacing/ComfyUI_StableHair_ll/tree/main).  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i img_sdxl_hair_transfer
-
-#### SD 1.5 Relight Photo
-The workflow is by [Andrea Baioni](https://www.youtube.com/watch?v=AKNzuHnhObk).  
-<mark>disk space: **base container size + 35 GB**</mark>
-
-    /poddy i img_sd_relight
-
-#### QWEN 2509 1.5 Relight Photo
-The workflow is by [Code Crafters Corner](https://www.youtube.com/watch?v=qjgyws9bFzQ).  
-<mark>disk space: **base container size + 35 GB**</mark> 
-
-    /poddy i img_qwen_relight
-
-#### QWEN Edit
-The workflows are by [pixaroma](https://www.youtube.com/watch?v=myuV6vjkGIw).  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i img_qwen_edit
-
-
 #### Ace Step 1.5
 The workflows are by [RyanOnTheInside](https://www.youtube.com/watch?v=R6ksf5GSsrk).  
 <mark>disk space: **base container size + 35 GB**</mark>   
 
     /poddy i aud_acestep
 
+#### Clothing Transfer
+<mark>disk space: **base container size + 35 GB**</mark>    
+
+    /poddy i img_clothing_transfer
 
 #### Qwen 3 TTS
 The workflows are by [Vantage with AI](https://www.youtube.com/watch?v=LDVC-n9R14w).  
@@ -47,20 +20,68 @@ The workflows are by [Vantage with AI](https://www.youtube.com/watch?v=LDVC-n9R1
 
     /poddy i aud_qwen_3_tts
 
+#### QWEN Edit
+The workflows are by [pixaroma](https://www.youtube.com/watch?v=myuV6vjkGIw).  
+<mark>disk space: **base container size + 35 GB**</mark>   
+
+    /poddy i img_qwen_edit
+
+#### QWEN 2509 1.5 Relight Photo
+The workflow is by [Code Crafters Corner](https://www.youtube.com/watch?v=qjgyws9bFzQ).  
+<mark>disk space: **base container size + 35 GB**</mark> 
+
+    /poddy i img_qwen_relight
+
+#### SD 1.5 Relight Photo
+The workflow is by [Andrea Baioni](https://www.youtube.com/watch?v=AKNzuHnhObk).  
+<mark>disk space: **base container size + 35 GB**</mark>
+
+    /poddy i img_sd_relight
+
+#### SDXL Hair Transfer
+The workflow is by [StableHair II](https://github.com/lldacing/ComfyUI_StableHair_ll/tree/main).  
+<mark>disk space: **base container size + 35 GB**</mark>   
+
+    /poddy i img_sdxl_hair_transfer
+
+#### Upscale
+<mark>disk space: **base container size + 35 GB**</mark>      
+
+    /poddy i img_upscale
+
 #### Flux SVG Workflows
 The workflows are by [pixaroma](https://www.youtube.com/watch?v=RUWwC7acHZs&t=18s).  
 <mark>disk space: **base container size + 35 GB**</mark>   
 
     /poddy i svg_flux
 
-#### Wan 2.2 T2V I2V
-The workflows are by [pixaroma](https://www.youtube.com/watch?v=xbaiLj5XCaI).  
+#### Character Replace
+The workflow is by [MDMZ](https://www.youtube.com/watch?v=woCP1Q_Htwo), information about how to use the workflow can be found by watching the video in the link.  
+<mark>disk space: **35 GB**</mark>  
+<mark>VRAM: **32 GB**</mark>  
+<mark>RAM: **Requires a 40 series card or above**</mark>
+
+    /poddy i vid_character_replace
+
+#### Lipsync
+The workflow is by [Blue Spork](https://www.youtube.com/watch?v=LR4lBimS7O4), information about how to use the workflow can be found by watching the video in the link.  
 <mark>disk space: **base container size + 35 GB**</mark>   
 
-    /poddy i vid_wan_mega_aio
+    /poddy i vid_lipsync
+
+#### Upscale
+<mark>disk space: **base container size + 35 GB**</mark>   
+
+    /poddy i vid_upscale
 
 #### Wan 2.2 GGUF
 The workflows are by [pixaroma](https://www.youtube.com/watch?v=xbaiLj5XCaI).  
 <mark>disk space: **base container size + 35 GB**</mark>   
 
     /poddy i vid_wan_gguf_lora
+
+#### Wan 2.2 T2V I2V
+The workflows are by [pixaroma](https://www.youtube.com/watch?v=xbaiLj5XCaI).  
+<mark>disk space: **base container size + 35 GB**</mark>   
+
+    /poddy i vid_wan_mega_aio
