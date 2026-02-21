@@ -2,6 +2,7 @@
 
 # workflow name
 workflow sdxl_hair_transfer
+workflow sdxl_hair_transfer_batch
 
 # node url
 node https://github.com/a-und-b/ComfyUI_LoRA_from_URL
@@ -9,6 +10,7 @@ node https://github.com/lldacing/ComfyUI_StableHair_ll
 node https://github.com/cubiq/ComfyUI_essentials
 node https://github.com/yolain/ComfyUI-Easy-Use
 node https://github.com/mav-rik/facerestore_cf
+node https://github.com/ltdrdata/was-node-suite-comfyui
 
 
 # model name folder url
