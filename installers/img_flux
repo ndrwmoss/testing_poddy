@@ -1,0 +1,14 @@
+# py name
+
+# workflow name
+workflow fluxmania_t2i
+
+# node url
+node https://github.com/yolain/ComfyUI-Easy-Use
+node https://github.com/ltdrdata/was-node-suite-comfyui
+
+# model name folder url
+model fluxmania_V.safetensors diffusion_models https://civitai.com/models/778691/fluxmania?modelVersionId=1539776
+model clipLCLIPGFullFP32_zer0intVisionCLIPL.safetensors clip https://civitai.com/api/download/models/1377767?type=Model&format=SafeTensor&size=full&fp=fp32
+model t5xxl_fp8_e4m3fn_scaled.safetensors clip https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn_scaled.safetensors?download=true
+model ae.safetensor vae https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors?download=true

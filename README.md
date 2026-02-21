@@ -21,7 +21,7 @@ The workflows are by [Vantage with AI](https://www.youtube.com/watch?v=LDVC-n9R1
     /poddy i aud_qwen_3_tts
 
 #### QWEN Edit
-The workflows are by [pixaroma](https://www.youtube.com/watch?v=myuV6vjkGIw).  
+The workflows are by [pixaroma](https://www.youtube.com/watch?v=myuV6vjkGIw), except the controlnet workflow which is from [Apex Artist](https://www.youtube.com/watch?v=v6xOY5x4NFU)  
 <mark>disk space: **base container size + 35 GB**</mark>   
 
     /poddy i img_qwen_edit
@@ -49,11 +49,17 @@ The workflow is by [StableHair II](https://github.com/lldacing/ComfyUI_StableHai
 
     /poddy i img_upscale
 
-#### Flux SVG Workflows
+#### SVG FLUX Workflows
 The workflows are by [pixaroma](https://www.youtube.com/watch?v=RUWwC7acHZs&t=18s).  
 <mark>disk space: **base container size + 35 GB**</mark>   
 
     /poddy i svg_flux
+
+#### FLUX Workflows
+The workflows are by [pixaroma](https://www.youtube.com/watch?v=xfxFEBVIF8k).  
+<mark>disk space: **base container size + 35 GB**</mark>   
+
+    /poddy i img_flux
 
 #### Character Replace
 The workflow is by [MDMZ](https://www.youtube.com/watch?v=woCP1Q_Htwo), information about how to use the workflow can be found by watching the video in the link.  
