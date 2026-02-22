@@ -4,8 +4,6 @@
 workflow fluxmania_t2i
 
 # node url
-node https://github.com/yolain/ComfyUI-Easy-Use
-node https://github.com/ltdrdata/was-node-suite-comfyui
 
 # model name folder url
 model fluxmania_V.safetensors diffusion_models https://civitai.com/models/778691/fluxmania?modelVersionId=1539776

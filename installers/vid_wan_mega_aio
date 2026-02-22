@@ -5,9 +5,6 @@ workflow vid_i2v_mega_aio
 workflow vid_t2v_mega_aio
 
 # node url
-node https://github.com/rgthree/rgthree-comfy
-node https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
-node https://github.com/kijai/ComfyUI-WanVideoWrapper
 
 # model name folder url
 model wan2.2-rapid-mega-aio-v8.safetensors checkpoints https://huggingface.co/Phr00t/WAN2.2-14B-Rapid-AllInOne/blob/main/Mega-v8/wan2.2-rapid-mega-aio-nsfw-v8.safetensors

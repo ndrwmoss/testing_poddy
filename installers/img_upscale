@@ -4,11 +4,6 @@
 workflow img_upscale
 
 # node url
-node https://github.com/kijai/ComfyUI-KJNodes
-node https://github.com/yolain/ComfyUI-Easy-Use
-node https://github.com/cubiq/ComfyUI_essentials
-node https://github.com/StableLlama/ComfyUI-basic_data_handling
-node https://github.com/ltdrdata/was-node-suite-comfyui
 
 # model name folder url
 model juggernaut-sdxl.safetensors diffusion_models https://civitai.com/api/download/models/1759168?type=Model&format=SafeTensor&size=full&fp=fp16

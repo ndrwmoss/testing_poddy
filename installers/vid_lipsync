@@ -5,10 +5,6 @@ py pyloudnorm
 workflow vid_lipsync
 
 # node url
-node https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
-node https://github.com/kijai/ComfyUI-KJNodes
-node https://github.com/kijai/ComfyUI-WanVideoWrapper
-node https://github.com/kijai/ComfyUI-MelBandRoFormer
 
 # model name folder url
 model MelBandRoformer_fp16.safetensors diffusion_models https://huggingface.co/Kijai/MelBandRoFormer_comfy/resolve/main/MelBandRoformer_fp16.safetensors

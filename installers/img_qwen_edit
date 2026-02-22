@@ -27,14 +27,6 @@ workflow QIE_restore_photo
 workflow QIE_controlnet
 
 # node url
-node https://github.com/rgthree/rgthree-comfy
-node https://github.com/city96/ComfyUI-GGUF
-node https://github.com/gseth/ControlAltAI-Nodes
-node https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch
-node https://github.com/Fannovel16/comfyui_controlnet_aux
-node https://github.com/kijai/ComfyUI-DepthAnythingV2
-node https://github.com/calcuis/gguf
-node https://github.com/ltdrdata/was-node-suite-comfyui
 
 # model name folder url
 model qwen_image_vae.safetensors vae https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors

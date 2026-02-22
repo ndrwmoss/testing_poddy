@@ -4,8 +4,7 @@
 workflow flux_upscaler
 
 # node url
-node https://github.com/rgthree/rgthree-comfy
-node https://github.com/ltdrdata/was-node-suite-comfyui
+
 # model name folder url
 model flux1-dev-Q8_0.gguf diffusion_models https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf?download=true
 model t5-v1_1-xxl-encoder-Q8_0.gguf clip https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf/resolve/main/t5-v1_1-xxl-encoder-Q8_0.gguf?download=true

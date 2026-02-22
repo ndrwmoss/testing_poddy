@@ -6,7 +6,6 @@ workflow qwen_no_lightning
 workflow qwen_no_lightning_with_second_image_reference
 
 # node url
-node https://github.com/ltdrdata/was-node-suite-comfyui
 
 # model name folder url
 model qwen_image_edit_2509_fp8_e4m3fn.safetensors diffusion_models https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.
