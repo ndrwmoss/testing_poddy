@@ -9,22 +9,11 @@ The workflows are by [RyanOnTheInside](https://www.youtube.com/watch?v=R6ksf5GSs
 
     /poddy i aud_acestep
 
-#### Clothing Transfer
-<mark>disk space: **base container size + 35 GB**</mark>    
-
-    /poddy i img_clothing_transfer
-
 #### Qwen 3 TTS
 The workflows are by [Vantage with AI](https://www.youtube.com/watch?v=LDVC-n9R14w).  
 <mark>disk space: **base container size + 35 GB**</mark>   
 
     /poddy i aud_qwen_3_tts
-
-#### QWEN Edit
-The workflows are by [pixaroma](https://www.youtube.com/watch?v=myuV6vjkGIw), except the controlnet workflow which is from [Apex Artist](https://www.youtube.com/watch?v=v6xOY5x4NFU)  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i img_qwen_edit
 
 #### QWEN 2509 1.5 Relight Photo
 The workflow is by [Code Crafters Corner](https://www.youtube.com/watch?v=qjgyws9bFzQ).  
@@ -37,12 +26,6 @@ The workflow is by [Andrea Baioni](https://www.youtube.com/watch?v=AKNzuHnhObk).
 <mark>disk space: **base container size + 35 GB**</mark>
 
     /poddy i img_sd_relight
-
-#### SDXL Hair Transfer
-The workflow is by [StableHair II](https://github.com/lldacing/ComfyUI_StableHair_ll/tree/main).  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i img_sdxl_hair_transfer
 
 #### Upscale
 <mark>disk space: **base container size + 35 GB**</mark>      
