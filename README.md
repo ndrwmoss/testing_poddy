@@ -3,11 +3,7 @@ This folder contains workflows under testing to make sure they run correctly. If
 
 `/poddy update test`
 
-#### Ace Step 1.5
-The workflows are by [RyanOnTheInside](https://www.youtube.com/watch?v=R6ksf5GSsrk).  
-<mark>disk space: **base container size + 35 GB**</mark>   
 
-    /poddy i aud_acestep
 
 #### Qwen 3 TTS
 The workflows are by [Vantage with AI](https://www.youtube.com/watch?v=LDVC-n9R14w).  
