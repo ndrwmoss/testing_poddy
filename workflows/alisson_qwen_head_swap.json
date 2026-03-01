@@ -1,91 +1,9 @@
 {
   "id": "91f6bbe2-ed41-4fd6-bac7-71d5b5864ecb",
   "revision": 1,
-  "last_node_id": 507,
-  "last_link_id": 857,
+  "last_node_id": 510,
+  "last_link_id": 860,
   "nodes": [
-    {
-      "id": 99,
-      "type": "MarkdownNote",
-      "pos": [
-        -840,
-        -140
-      ],
-      "size": [
-        550,
-        550
-      ],
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Model links",
-      "properties": {
-        "ue_properties": {
-          "version": "7.5.1",
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "## Report Issue\n\nNote: please [update ComfyUI](https://docs.comfy.org/zh-CN/installation/update_comfyui) first and prepare required models. Desktop/Cloud ship stable builds; nightly-supported models may not be included yet, please wait for the next stable release.\n\n- Cannot run / runtime errors: [ComfyUI/issues](https://github.com/comfyanonymous/ComfyUI/issues)\n- UI / frontend issues: [ComfyUI_frontend/issues](https://github.com/Comfy-Org/ComfyUI_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/Comfy-Org/workflow_templates/issues)\n\n\n## Model Links\n\n**text_encoders**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**loras**\n\n- [Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/resolve/main/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors)\n\n**diffusion_models**\n\n- [qwen_image_edit_2511_bf16.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2511_bf16.safetensors)\n\n**vae**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n│   ├── 📂 loras/\n│   │      └── Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors\n│   ├── 📂 diffusion_models/\n│   │      └── qwen_image_edit_2511_bf16.safetensors\n│   └── 📂 vae/\n│          └── qwen_image_vae.safetensors\n```\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 37,
-      "type": "UNETLoader",
-      "pos": [
-        -254.6433333911787,
-        30.458787845716753
-      ],
-      "size": [
-        330,
-        90
-      ],
-      "flags": {},
-      "order": 1,
-      "mode": 4,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "slot_index": 0,
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.48",
-        "Node name for S&R": "UNETLoader",
-        "models": [
-          {
-            "name": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-            "directory": "diffusion_models"
-          }
-        ],
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "version": "7.5.1",
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-        "default"
-      ]
-    },
     {
       "id": 459,
       "type": "FluxKontextMultiReferenceLatentMethod",
@@ -98,7 +16,7 @@
         58
       ],
       "flags": {},
-      "order": 28,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -142,7 +60,7 @@
         110
       ],
       "flags": {},
-      "order": 2,
+      "order": 0,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -198,7 +116,7 @@
         26
       ],
       "flags": {},
-      "order": 18,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -238,7 +156,7 @@
         26
       ],
       "flags": {},
-      "order": 15,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -278,7 +196,7 @@
         102
       ],
       "flags": {},
-      "order": 36,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -328,7 +246,7 @@
         270
       ],
       "flags": {},
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -404,7 +322,7 @@
         200
       ],
       "flags": {},
-      "order": 3,
+      "order": 1,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -433,45 +351,6 @@
       ]
     },
     {
-      "id": 462,
-      "type": "UNETLoader",
-      "pos": [
-        -247.29386306944045,
-        -105.7149841291857
-      ],
-      "size": [
-        324.62124483854416,
-        107.96747705439657
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            803
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.6.0",
-        "Node name for S&R": "UNETLoader",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.5.1"
-        }
-      },
-      "widgets_values": [
-        "qwen_image_edit_2511_fp8mixed.safetensors",
-        "default"
-      ]
-    },
-    {
       "id": 88,
       "type": "VAEEncode",
       "pos": [
@@ -483,7 +362,7 @@
         46
       ],
       "flags": {},
-      "order": 16,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -537,7 +416,7 @@
         46
       ],
       "flags": {},
-      "order": 20,
+      "order": 18,
       "mode": 4,
       "inputs": [
         {
@@ -584,7 +463,7 @@
         246
       ],
       "flags": {},
-      "order": 26,
+      "order": 24,
       "mode": 4,
       "inputs": [
         {
@@ -618,7 +497,7 @@
         60
       ],
       "flags": {},
-      "order": 21,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -669,7 +548,7 @@
         60
       ],
       "flags": {},
-      "order": 27,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -723,7 +602,7 @@
         58
       ],
       "flags": {},
-      "order": 29,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -767,7 +646,7 @@
         465.2955479452055
       ],
       "flags": {},
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -836,7 +715,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -891,7 +770,7 @@
         246.0000000000001
       ],
       "flags": {},
-      "order": 23,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -925,7 +804,7 @@
         46
       ],
       "flags": {},
-      "order": 34,
+      "order": 33,
       "mode": 4,
       "inputs": [
         {
@@ -973,7 +852,7 @@
         102
       ],
       "flags": {},
-      "order": 22,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -1012,80 +891,6 @@
       ]
     },
     {
-      "id": 482,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        155.79409260506574,
-        -358.91340256411917
-      ],
-      "size": [
-        435.40307534398517,
-        88.16408976437214
-      ],
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 804
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            795
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.4.0",
-        "Node name for S&R": "LoraLoaderModelOnly",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.5.1"
-        }
-      },
-      "widgets_values": [
-        "bfs_head_v5_2511_merged_version_rank_16_fp16.safetensors",
-        1
-      ]
-    },
-    {
-      "id": 486,
-      "type": "Note",
-      "pos": [
-        -776.1346268610802,
-        -387.19205421357947
-      ],
-      "size": [
-        480.23468644605293,
-        200.05049249482755
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.1",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "I made my own merge of the Lightning LoRA for QIE 2511 to slightly reduce the plasticky look. If you want to download it, the link is below.\n\nhttps://huggingface.co/Alissonerdx/CustomLightning/blob/main/custom_lightning_4or8steps_rank_4_fp32.safetensors\n\nIf you’re using Lightning LoRA, I recommend using LMS + sgm_uniform. I liked the results.\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 60,
       "type": "SaveImage",
       "pos": [
@@ -1097,7 +902,7 @@
         1040
       ],
       "flags": {},
-      "order": 35,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -1137,10 +942,10 @@
       ],
       "size": [
         348.095703125,
-        626
+        650
       ],
       "flags": {},
-      "order": 17,
+      "order": 15,
       "mode": 4,
       "inputs": [
         {
@@ -1213,7 +1018,8 @@
         true,
         1024,
         1024,
-        "32"
+        "32",
+        "gpu (much faster)"
       ]
     },
     {
@@ -1228,7 +1034,7 @@
         308.18629406709215
       ],
       "flags": {},
-      "order": 25,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -1299,7 +1105,7 @@
         60
       ],
       "flags": {},
-      "order": 6,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1355,7 +1161,7 @@
         82
       ],
       "flags": {},
-      "order": 7,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1394,7 +1200,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 8,
+      "order": 4,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1451,7 +1257,7 @@
         382.81902226286513
       ],
       "flags": {},
-      "order": 9,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1498,68 +1304,6 @@
       ]
     },
     {
-      "id": 89,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        -191.28701254170065,
-        -366.8106745071695
-      ],
-      "size": [
-        310,
-        82
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 803
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            804
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.50",
-        "Node name for S&R": "LoraLoaderModelOnly",
-        "models": [
-          {
-            "name": "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
-            "url": "https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
-            "directory": "loras"
-          }
-        ],
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "lora_name": true,
-            "strength_model": true
-          },
-          "version": "7.5.1",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "custom_lightning_4or8steps_rank_4_fp32.safetensors",
-        1
-      ]
-    },
-    {
       "id": 468,
       "type": "KSamplerSelect",
       "pos": [
@@ -1571,7 +1315,7 @@
         58
       ],
       "flags": {},
-      "order": 10,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1655,7 +1399,7 @@
         98
       ],
       "flags": {},
-      "order": 31,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1698,84 +1442,6 @@
       ]
     },
     {
-      "id": 436,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        -475.30663047996154,
-        586.1508934017932
-      ],
-      "size": [
-        270,
-        336.00000000000006
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 699
-        },
-        {
-          "name": "mask",
-          "shape": 7,
-          "type": "MASK",
-          "link": 753
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            719,
-            736,
-            752,
-            779,
-            845
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "mask",
-          "type": "MASK",
-          "links": [
-            754
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "06a60ac3fec854909f35aba20aa5be39ff59a6e3",
-        "Node name for S&R": "ImageResizeKJv2",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.5.1"
-        }
-      },
-      "widgets_values": [
-        1024,
-        1024,
-        "lanczos",
-        "resize",
-        "0, 0, 0",
-        "center",
-        2,
-        "cpu"
-      ]
-    },
-    {
       "id": 437,
       "type": "ImageResizeKJv2",
       "pos": [
@@ -1787,7 +1453,7 @@
         336.00000000000006
       ],
       "flags": {},
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -1863,7 +1529,7 @@
         254
       ],
       "flags": {},
-      "order": 19,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -1927,7 +1593,7 @@
         308.18629406709215
       ],
       "flags": {},
-      "order": 24,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -1998,7 +1664,7 @@
         270.0000000000001
       ],
       "flags": {},
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -2020,6 +1686,272 @@
       },
       "widgets_values": [
         "ComfyUI"
+      ]
+    },
+    {
+      "id": 486,
+      "type": "Note",
+      "pos": [
+        -776.1346268610802,
+        -387.19205421357947
+      ],
+      "size": [
+        480.23468644605293,
+        200.05049249482755
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.1",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "I made my own merge of the Lightning LoRA for QIE 2511 to slightly reduce the plasticky look. If you want to download it, the link is below.\n\nhttps://huggingface.co/Alissonerdx/CustomLightning/blob/main/custom_lightning_4or8steps_rank_4_fp32.safetensors\n\nIf you’re using Lightning LoRA, I recommend using LMS + sgm_uniform. I liked the results.\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 99,
+      "type": "MarkdownNote",
+      "pos": [
+        -840,
+        -140
+      ],
+      "size": [
+        550,
+        550
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Model links",
+      "properties": {
+        "ue_properties": {
+          "version": "7.5.1",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "## Report Issue\n\nNote: please [update ComfyUI](https://docs.comfy.org/zh-CN/installation/update_comfyui) first and prepare required models. Desktop/Cloud ship stable builds; nightly-supported models may not be included yet, please wait for the next stable release.\n\n- Cannot run / runtime errors: [ComfyUI/issues](https://github.com/comfyanonymous/ComfyUI/issues)\n- UI / frontend issues: [ComfyUI_frontend/issues](https://github.com/Comfy-Org/ComfyUI_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/Comfy-Org/workflow_templates/issues)\n\n\n## Model Links\n\n**text_encoders**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**loras**\n\n- [Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/resolve/main/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors)\n\n**diffusion_models**\n\n- [qwen_image_edit_2511_bf16.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2511_bf16.safetensors)\n\n**vae**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n│   ├── 📂 loras/\n│   │      └── Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors\n│   ├── 📂 diffusion_models/\n│   │      └── qwen_image_edit_2511_bf16.safetensors\n│   └── 📂 vae/\n│          └── qwen_image_vae.safetensors\n```\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 462,
+      "type": "UNETLoader",
+      "pos": [
+        -247.29386306944045,
+        -105.7149841291857
+      ],
+      "size": [
+        324.62124483854416,
+        107.96747705439657
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            860
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "UNETLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.1"
+        }
+      },
+      "widgets_values": [
+        "qwen_image_edit_2511_fp8_e4m3fn.safetensors",
+        "default"
+      ]
+    },
+    {
+      "id": 482,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        179.14498014386243,
+        -387.34057000265346
+      ],
+      "size": [
+        435.40307534398517,
+        88.16408976437214
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 859
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            795
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.4.0",
+        "Node name for S&R": "LoraLoaderModelOnly",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.1"
+        }
+      },
+      "widgets_values": [
+        "bfs_head_v5_2511_merged_version_rank_16_fp16.safetensors",
+        1
+      ]
+    },
+    {
+      "id": 510,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        -276.2272918343572,
+        -383.8630124940047
+      ],
+      "size": [
+        435.40307534398517,
+        88.16408976437214
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 860
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            859
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.4.0",
+        "Node name for S&R": "LoraLoaderModelOnly",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.1"
+        }
+      },
+      "widgets_values": [
+        "custom_lightning_qwen_image_edit_2511_4or8steps_rank_4_fp32.safetensors",
+        1
+      ]
+    },
+    {
+      "id": 436,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        -475.30663047996154,
+        586.1508934017932
+      ],
+      "size": [
+        270,
+        336.00000000000006
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 699
+        },
+        {
+          "name": "mask",
+          "shape": 7,
+          "type": "MASK",
+          "link": 753
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            719,
+            736,
+            752,
+            779,
+            845
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            754
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "06a60ac3fec854909f35aba20aa5be39ff59a6e3",
+        "Node name for S&R": "ImageResizeKJv2",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.1"
+        }
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        "lanczos",
+        "resize",
+        "0, 0, 0",
+        "center",
+        2,
+        "cpu"
       ]
     }
   ],
@@ -2369,22 +2301,6 @@
       "MODEL"
     ],
     [
-      803,
-      462,
-      0,
-      89,
-      0,
-      "MODEL"
-    ],
-    [
-      804,
-      89,
-      0,
-      482,
-      0,
-      "MODEL"
-    ],
-    [
       832,
       473,
       0,
@@ -2423,6 +2339,22 @@
       459,
       0,
       "CONDITIONING"
+    ],
+    [
+      859,
+      510,
+      0,
+      482,
+      0,
+      "MODEL"
+    ],
+    [
+      860,
+      462,
+      0,
+      510,
+      0,
+      "MODEL"
     ]
   ],
   "groups": [
@@ -2469,16 +2401,16 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.16105100000000427,
+      "scale": 0.7400249944258384,
       "offset": [
-        5147.161702632316,
-        2094.4378015397147
+        1453.728284169533,
+        225.76735129655373
       ]
     },
     "frontendVersion": "1.36.14",
     "ue_links": [],
     "links_added_by_ue": [],
-    "VHS_latentpreview": true,
+    "VHS_latentpreview": false,
     "VHS_latentpreviewrate": 0,
     "VHS_MetadataImage": true,
     "VHS_KeepIntermediate": true,
