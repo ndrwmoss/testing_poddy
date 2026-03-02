@@ -68,5 +68,4 @@ model extract-outfit_v3.safetensors loras https://huggingface.co/datasets/dubsta
 model RealESRGAN_x2.pth upscale_models https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x2.pth
 model bfs_head_v5_2511_merged_version_rank_32_fp32.safetensors lora https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/resolve/main/bfs_head_v5_2511_merged_version_rank_32_fp32.safetensors
 
-
-# end
+model custom_lightning_qwen_image_edit_2511_4or8steps_rank_4_fp32.safetensors lora https://huggingface.co/Alissonerdx/CustomLightning/resolve/main/
