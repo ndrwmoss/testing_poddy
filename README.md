@@ -68,3 +68,17 @@ The workflows are by [pixaroma](https://www.youtube.com/watch?v=xbaiLj5XCaI).
 <mark>disk space: **base container size + 35 GB**</mark>   
 
     /poddy i vid_wan_mega_aio
+
+#### Upscale
+<mark>disk space: **base container size + 35 GB**</mark>      
+
+    /poddy i img_flux_upscale
+
+##
+# Audio
+### Ace Step 1.5
+The workflows are by [RyanOnTheInside](https://www.youtube.com/watch?v=R6ksf5GSsrk).  
+[Syman UK](https://openart.ai/workflows/chimpanzee_skinny_81/audio-ace-step-15-turbosft-make-song-with-lora/QnVFyPIUTrVhkxY97KN3)  
+<mark>disk space: **base container size + 35 GB**</mark>   
+
+    /poddy i aud_acestep
