@@ -1,0 +1,8 @@
+# workflow name
+workflow trellis_2_geo
+workflow trellis_2_tex
+# node url
+node https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2
+# model name folder url
+
+# needs an empty space at the end of the line to work

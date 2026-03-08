@@ -3,82 +3,8 @@ This folder contains workflows under testing to make sure they run correctly. If
 
 `/poddy update test`
 
-#### Qwen 3 TTS
-The workflows are by [Vantage with AI](https://www.youtube.com/watch?v=LDVC-n9R14w).  
+#### Trellis 2
+The workflows are by [PozzettiAndrea](https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2).  
 <mark>disk space: **base container size + 35 GB**</mark>   
 
-    /poddy i aud_qwen_3_tts
-
-#### QWEN 2509 1.5 Relight Photo
-The workflow is by [Code Crafters Corner](https://www.youtube.com/watch?v=qjgyws9bFzQ).  
-<mark>disk space: **base container size + 35 GB**</mark> 
-
-    /poddy i img_qwen_relight
-
-#### SD 1.5 Relight Photo
-The workflow is by [Andrea Baioni](https://www.youtube.com/watch?v=AKNzuHnhObk).  
-<mark>disk space: **base container size + 35 GB**</mark>
-
-    /poddy i img_sd_relight
-
-#### Upscale
-<mark>disk space: **base container size + 35 GB**</mark>      
-
-    /poddy i img_upscale
-
-#### SVG FLUX Workflows
-The workflows are by [pixaroma](https://www.youtube.com/watch?v=RUWwC7acHZs&t=18s).  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i svg_flux
-
-#### FLUX Workflows
-The workflows are by [pixaroma](https://www.youtube.com/watch?v=xfxFEBVIF8k).  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i img_flux
-
-#### Character Replace
-The workflow is by [MDMZ](https://www.youtube.com/watch?v=woCP1Q_Htwo), information about how to use the workflow can be found by watching the video in the link.  
-<mark>disk space: **35 GB**</mark>  
-<mark>VRAM: **32 GB**</mark>  
-<mark>RAM: **Requires a 40 series card or above**</mark>
-
-    /poddy i vid_character_replace
-
-#### Lipsync
-The workflow is by [Blue Spork](https://www.youtube.com/watch?v=LR4lBimS7O4), information about how to use the workflow can be found by watching the video in the link.  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i vid_lipsync
-
-#### Upscale
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i vid_upscale
-
-#### Wan 2.2 GGUF
-The workflows are by [pixaroma](https://www.youtube.com/watch?v=xbaiLj5XCaI).  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i vid_wan_gguf_lora
-
-#### Wan 2.2 T2V I2V
-The workflows are by [pixaroma](https://www.youtube.com/watch?v=xbaiLj5XCaI).  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i vid_wan_mega_aio
-
-#### Upscale
-<mark>disk space: **base container size + 35 GB**</mark>      
-
-    /poddy i img_flux_upscale
-
-##
-# Audio
-### Ace Step 1.5
-The workflows are by [RyanOnTheInside](https://www.youtube.com/watch?v=R6ksf5GSsrk).  
-[Syman UK](https://openart.ai/workflows/chimpanzee_skinny_81/audio-ace-step-15-turbosft-make-song-with-lora/QnVFyPIUTrVhkxY97KN3)  
-<mark>disk space: **base container size + 35 GB**</mark>   
-
-    /poddy i aud_acestep
+    /poddy i trellis_2

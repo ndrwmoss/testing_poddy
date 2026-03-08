@@ -1,9 +1,0 @@
-# py name
-
-# workflow name
-workflow img_sd_relight
-
-# node url
-
-# model name folder url
-model epicrealism_naturalSinRC1VAE.safetensors diffusion_models https://huggingface.co/gitgato/EpicReal/resolve/fd2b9d09eb5dbd5fb5a0aedfb9c24c3e0196c214/epicrealism_naturalSinRC1VAE.safetensors
