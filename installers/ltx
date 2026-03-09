@@ -1,0 +1,17 @@
+# workflow name
+workflow ltx_pix_i2v  
+workflow ltx_pix_i2v_2Frames_1536x1024  
+workflow ltx_pix_i2v_1408x1408  
+workflow ltx_pix_i2v_1920x1080  
+workflow ltx_pix_i2v_end_frame  
+workflow ltx_pix_i2v_EXTEND_768x512  
+workflow ltx_pix_i2v_middle_end_frame  
+workflow ltx_pix_i2v_multi_frames  
+workflow ltx_pix_i2v1080x1920  
+workflow ltx_pix_t2v  
+
+# node url
+node https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2
+# model name folder url
+
+# needs an empty space at the end of the line to work
