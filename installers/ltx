@@ -7,11 +7,16 @@ workflow ltx_pix_i2v_end_frame
 workflow ltx_pix_i2v_EXTEND_768x512  
 workflow ltx_pix_i2v_middle_end_frame  
 workflow ltx_pix_i2v_multi_frames  
-workflow ltx_pix_i2v1080x1920  
+workflow ltx_pix_i2v_1080x1920  
 workflow ltx_pix_t2v  
-
 # node url
-node https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2
+node https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
+node https://github.com/Lightricks/ComfyUI-LTXVideo
+node https://github.com/yolain/ComfyUI-Easy-Use
+node https://github.com/kijai/ComfyUI-KJNodes
 # model name folder url
+model ltx-2.3-22b-dev.safetensors checkpoints https://huggingface.co/Lightricks/LTX-2.3/blob/main/ltx-2.3-22b-dev.safetensors
+model t5xxl_fp16.safetensors clip https://huggingface.co/Comfy-Org/mochi_preview_repackaged/blob/main/split_files/text_encoders/t5xxl_fp16.safetensors
+model ltx-2.3-spatial-upscaler-x2-1.0.safetensors upscale_models https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.0.safetensors
 
 # needs an empty space at the end of the line to work

@@ -18,7 +18,7 @@ ltx_pix_i2v_end_frame
 ltx_pix_i2v_EXTEND_768x512  
 ltx_pix_i2v_middle_end_frame  
 ltx_pix_i2v_multi_frames  
-ltx_pix_i2v1080x1920  
+ltx_pix_i2v_1080x1920  
 ltx_pix_t2v  
 
     /poddy i ltx
